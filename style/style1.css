@@ -1,0 +1,276 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f9f9f9; /* Light gray background color */
+	color: #333; /* Dark gray text color */
+	margin-left: 260px; /* Adjusted margin to accommodate side navigation */
+  }
+  
+  .addbutton, .addmusicbutton {
+	background-color: #cc0000; /* YouTube red */
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+  }
+  
+  .addbutton:hover, .addmusicbutton:hover {
+	background-color: #ff0000; 
+  }
+  
+  .searchbox {
+	width: auto;
+	padding: 10px;
+	border-bottom: 2px solid #cc0000; /* YouTube red */
+	border-radius: 20px;
+	color: #333; /* Dark gray text color */
+  }
+  
+  .search-button {
+	background-color: #cc0000; /* YouTube red */
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+	margin-right: 10px;
+  }
+  
+  .search-button:hover {
+	background-color: #ff0000; /* Lighter red on hover */
+  }
+  
+  .table-container {
+	width: calc(100% - 250px); /* Adjusted width to account for side navigation */
+	margin-top: 20px;
+  }
+  
+  table {
+	width: 100%;
+	border-collapse: collapse;
+  }
+  
+  th, td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ccc; /* Light gray border color */
+  }
+  
+  th {
+	background-color: #f2f2f2; /* Light gray background color */
+	color: #333; /* Dark gray text color */
+  }
+  
+  /* Anchor tag styles for table */
+  a {
+	color: #cc0000; /* YouTube red */
+	text-decoration: none;
+  }
+  
+  a:hover {
+	color: #ff0000; /* Lighter red on hover */
+  }
+  .form-container {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form fields */
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="password"],
+  .form-container textarea {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box; /* Ensure the padding and border are included in the width */
+  }
+  
+  /* Style the submit button */
+  .form-container button[type="submit"] {
+	background-color: #cc0000;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+  }
+  
+  /* Add hover effect to the submit button */
+  .form-container button[type="submit"]:hover {
+	background-color: #ff0000;
+  }
+  
+  /* Style the form header */
+  .form-header {
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+  /* Style form labels */
+  .form-container label {
+	font-weight: bold;
+  }
+  
+  /* Style for the select element */
+select {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	background-color: #fff;
+	color: #333;
+	cursor: pointer;
+	appearance: none; /* Remove default arrow */
+	background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>'); /* Custom arrow icon */
+	background-repeat: no-repeat;
+	background-position: right 10px top 50%;
+	padding-right: 30px; /* Adjust to fit the arrow icon */
+  }
+  
+  /* Hover effect */
+  select:hover {
+	border-color: #aaa;
+  }
+  
+  /* Focus effect */
+  select:focus {
+	outline: none;
+	border-color: #f80000; /* Green when focused */
+	box-shadow: 0 0 5px rgba(167, 2, 2, 0.5); /* Example of focus effect */
+  }
+  
+  .container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+  
+  .title {
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 10px;
+  }
+  
+  .description {
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 20px;
+  }
+  
+  .section-title {
+	font-size: 20px;
+	color: #333;
+	margin-bottom: 10px;
+  }
+  
+  .form-group {
+	margin-bottom: 20px;
+  }
+  
+  .form-input {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+  .submit-button {
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+  }
+
+  .submit-button:hover {
+	background-color: #0056b3;
+  }
+
+  div.container h3
+  {
+	font-size:1.5em;
+	margin-left:-200px;
+  }
+  
+  .foot {
+    background-color: #f0f0f0; /* Background color for the footer */
+    border-top: 1px solid #000000; /* Top border */
+    padding: 20px 0; /* Padding for top and bottom */
+    position: fixed; /* Fixed position so it stays at the bottom */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width */
+    padding-left:300px;
+}
+
+.footer-content {
+    max-width: 1200px; /* Maximum width for the content */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+select
+{
+	width:100px;
+}
+
+.song-container {
+    display: flex; /* Use flexbox to arrange elements */
+    align-items: center; /* Align items vertically */
+    margin-bottom: 20px; 
+}
+
+.song-image {
+    width: 300px; /* Set a fixed width for the image */
+    margin-right: 20px; /* Add margin to separate image from text */
+}
+
+.song-details {
+    flex: 1; /* Allow details to take remaining space */
+}
+
+.song-details p {
+    margin: 0; /* Remove default paragraph margin */
+	
+}
+
+.song-details strong {
+    font-weight: bold; /* Make strong elements bold */
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height of the container to 100% of the viewport height */
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire container with the background image */
+    color:#000000; /* Set text color to black */
+    padding: 20px; /* Add padding to the container */
+    text-align: center; /* Center-align text */
+}
+
+.about h3 {
+    margin-top: 0; /* Remove default margin from heading */
+    margin-bottom: 20px; /* Add margin below heading */
+}
+
+.about p {
+    margin-top: 0; /* Remove default margin from paragraphs */
+    margin-bottom: 20px; /* Add margin below paragraphs */
+    line-height: 1.5; /* Set line height for better readability */
+}
